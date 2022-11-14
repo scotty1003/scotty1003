@@ -5,7 +5,7 @@ public class Hot {
 		int addMin = 1000/10;
 		
 		int inH = 9, inM = 50;
-		int outH = 16, outM = 22;
+		int outH = 10, outM = 22;
 		
 		int hour = 60;
 		
@@ -15,6 +15,9 @@ public class Hot {
 		
 		System.out.println(price);
 		
+	
+		boolean over = (outH * hour + outM) - (inH * hour + inM) >= 5 * hour;
+		System.out.println(over);
 	}
 
 }
