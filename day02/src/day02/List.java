@@ -29,7 +29,7 @@ public class List {
 		System.out.println(count);
 		
 		//4
-		int rank = 0;
+		int rank = 1;
 		for (int i =0; i < score.length; i++) {
 			if(score[i] >= 85) {
 				rank ++;
